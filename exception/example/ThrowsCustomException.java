@@ -41,9 +41,7 @@ public class ThrowsCustomException {
 		// TODO Auto-generated method stub
       My1 obj=new My1();
 		try{
-			
 				obj.test();
-			
 		}catch(MyExc e){
 			System.out.print("\n printStackTrace message-->  ");
 				e.printStackTrace();

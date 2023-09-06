@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 
 public class Employee implements Comparable<Employee>{
 	
@@ -66,6 +67,11 @@ public class Employee implements Comparable<Employee>{
 	@Override
 	public String toString(){
 		return "{id:"+id+" name:"+name+" salary:"+salary+" joiningDate:"+joiningDate+"}";
+	}
+	
+	@Override
+	public int hashCode(){
+		return Objects.hash(id);
 	}
 
 	public static void main(String[] args) {

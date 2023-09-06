@@ -26,7 +26,7 @@ public class Basics {
 				
 		
 		/*
-		 * int x=5/0     -->Gives compilet time exception: ArithmeticException
+		 * int x=5/0     -->Gives compile time exception: ArithmeticException
 		 * 
 		 * int a=5,b=0;
 		 * int x=a/b;    --->Gives runtime exception  :ArithmeticException

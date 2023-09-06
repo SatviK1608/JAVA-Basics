@@ -73,7 +73,7 @@ public class ObjectInSetOnIdComparision {
 	}
 	@Override
 	public int hashCode(){
-		return Objects.hash(id);
+		return Objects.hash(id);    //tells if unique or not as each new Object will have unique hash-code
 	}
 
 	public static void main(String[] args) {

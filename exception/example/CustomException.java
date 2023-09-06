@@ -44,9 +44,7 @@ public class CustomException {
 	}
       My obj=new My();
 		try{
-			
 				obj.test();
-			
 		}catch(Exception e){
 			System.out.print("\n printStackTrace message-->  ");
 				e.printStackTrace();

@@ -100,7 +100,7 @@ public class PlayerList {
 		}
 		
 	//Iterator for List only ---> because we have hasPrevious and previous along with hasNext and next methods
-		ListIterator<String> teamListIterator=newTeam.listIterator(newTeam.size());
+		ListIterator<String> teamListIterator=newTeam.listIterator(newTeam.size());  //if size is passed it will not run for forward iteration
 		System.out.println("All players in reverse order - ");
 		while(teamListIterator.hasPrevious()){
 			String player=teamListIterator.previous();
