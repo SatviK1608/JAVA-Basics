@@ -40,6 +40,8 @@ public class UpperBounded {
 		
 		//obj.printData(sList);  Error as it can have only Number type
 		
+		
+		
 	}
 
 }

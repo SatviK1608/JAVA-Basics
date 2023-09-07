@@ -1,4 +1,4 @@
-package enumerators;
+package enumerators.basics;
 
 public class Main {
 	

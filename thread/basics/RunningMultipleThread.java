@@ -1,4 +1,4 @@
-package thread;
+package thread.basics;
 
 public class RunningMultipleThread extends Thread {
 

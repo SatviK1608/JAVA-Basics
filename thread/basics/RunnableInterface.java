@@ -1,4 +1,4 @@
-package thread;
+package thread.basics;
 
 public class RunnableInterface implements Runnable{
 

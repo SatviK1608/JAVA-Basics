@@ -1,4 +1,4 @@
-package annotations;
+package annotations.basic;
 
 public class SuppressWarning {
 
